@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color: white;
+}
+.new_header {
+    width: 100%;
+    display: none;
+    /* display: flex; */
+    justify-content: flex-end;
+    
+}
+.current_new_header {
+    width: 33px;
+    height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h_1 {
+    width: 33px;
+    height: 3px;
+    background-color: #070707;
+}
+.C_header {
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 20px);
+}
+.header {
+    max-width: 940px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-color: #FFFFFF;
+}
+.header p {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    padding: 32px 0;
+}
+.vovk_container {
+    background-color: #FFFFFF;
+}
+.vovk_text_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vovk_text_container h2 {
+    max-width: 123px;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    color: #070707;
+    padding: 39px 0 30px 0;
+}
+.vovk_text_container p {
+    max-width: 155px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color: #070707;
+}
+.language {
+    transform: rotateZ(-90deg) translate(0, 25px);
+    
+}
+.img_main {
+    width: 100%;
+    margin-bottom: 104px;
+}
+.img_mob {
+    display: none;
+}
+.about_me_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding: 120px 0 106px 0;
+} 
+.about_me_container h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 17px;
+}
+.about_me_text_container {
+    max-width: 485px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.about_me_container p {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+}
+.skills_container {
+    padding: 91px 0 110px 0;
+    background-color: #FFFFFF;
+}
+.skills_container h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+}
+.skills_container p {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+    margin: 69px 0 83px 0;
+}
+.main_ticket_container {
+    max-width: 945px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.ticket_container {
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.ticket_container p {
+    max-width: 70px;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    text-align: center;
+    color: #828282;
+    margin: 20px 0 40px 0;
+}
+.stars_cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_container {
+    padding-top: 112px;
+    background-color: #F6F6F6;
+}
+.portfolio_container h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+}
+.current_man_container {
+    display: flex;
+    background-color: blueviolet;
+} 
+.man_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.man_container p {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #070707;
+    margin: 44px 0 99px 0;
+}
+.man_container img {
+    width: 100%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 0 123px 0;
+}
+.footer h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 20px;
+}
+.footer p {
+    max-width: 275px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 30px;
+}
+.button {
+    width: 180px;
+    height: 42px;
+    background: #070707;
+    border-radius: 70px;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.message_container {
+    width: 100%;
+    max-width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text {
+    max-width: 243px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    text-align: center;
+    color: #828282;
+    margin-top: 45px;
+}
+
+

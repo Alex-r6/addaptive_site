@@ -1,0 +1,52 @@
+main,footer, .new_header {
+margin: 0 10px;
+}
+@media screen and (max-width: 620px){
+    .new_header {
+        display: flex;
+        position: absolute;
+        top:68px;
+        right: 0px;
+    }
+    .vovk_text_container h2 {
+        padding-top: 65px;
+    }
+    .language {
+        display: none;
+    }
+    .header {
+        display: none;
+    }
+    .vovk_text_container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 36px;
+    }
+    .main_ticket_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ticket_container {
+        margin-bottom: 10px;
+    }
+    .button {
+        width: 100%;
+
+       max-width: 316px;
+        height: 42px;
+        background: #000000;
+        border-radius: 50px;
+    }
+    .img_container {
+        display: flex;
+        justify-content: center;
+    }
+    .img_main {
+        display: none;
+    }
+    .img_mob {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+}
