@@ -127,15 +127,15 @@ body {
 .main_ticket_container {
     max-width: 945px;
     display: flex;
-    justify-content: space-between;
-    overflow-x: scroll;
+    overflow-x:scroll;
 }
 .ticket_container {
-    width: 166px;
+    min-width: 166px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    margin-right: 80px;
 }
 .ticket_container p {
     max-width: 70px;
