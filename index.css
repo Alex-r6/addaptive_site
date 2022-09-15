@@ -126,9 +126,33 @@ body {
 }
 .main_ticket_container {
     max-width: 945px;
+    width: 100vw;
     display: flex;
-    overflow-x:scroll;
+    overflow-x:auto;
+    scrollbar-width: none; /* FOR Moz */
 }
+.main_ticket_container::-webkit-scrollbar {
+    /* height: 30px;
+    background-color: #828282; */
+    display: none;
+}
+/* .main_ticket_container::-webkit-scrollbar-button {
+   
+}
+.main_ticket_container::-webkit-scrollbar-thumb {
+    background-color: red;
+    width: 100px;
+}
+.main_ticket_container::-webkit-scrollbar-track {
+    background-color: green;
+} */
+
+/* .main_ticket_cont {
+    height: 100%;
+    background-color: #a22424;
+    width: 90vw;
+    display: flex;
+} */
 .ticket_container {
     min-width: 166px;
     display: flex;
@@ -136,6 +160,9 @@ body {
     align-items: center;
     padding-top: 10px;
     margin-right: 80px;
+}
+.ticket_container:last-child {
+    margin: 0;
 }
 .ticket_container p {
     max-width: 70px;
